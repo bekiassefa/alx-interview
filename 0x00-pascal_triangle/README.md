@@ -1,51 +1,54 @@
-0x00. Pascal's Triangle
-Algorithm
-Python
- By: Alexa Orrico, Software Engineer at Holberton School
- Weight: 1
- Project will start Sep 25, 2023 6:00 AM, must end by Sep 29, 2023 6:00 AM
- Checker was released at Sep 26, 2023 6:00 AM
- An auto review will be launched at the deadline
-Concepts
-For this project, we expect you to look at this concept:
+Technical Interview Preparation Guide
+Introduction
+This repository provides guidance and tips for preparing for technical interviews, which are commonly used to assess a candidate's technical skills and knowledge for roles in software development, engineering, data science, and IT. Effective preparation is crucial to perform well in these interviews and increase your chances of landing your desired job.
 
-Technical interview
-Tasks
-0. Pascal's Triangle
-mandatory
-Create a function def pascal_triangle(n): that returns a list of lists of integers representing the Pascal’s triangle of n:
+Table of Contents
+Understanding the Job Requirements
+Reviewing Technical Concepts
+Practicing Coding
+Studying Past Work
+Behavioral Questions
+Mock Interviews
+Asking Questions
+Reviewing Your Resume
+Handling Pressure
+Staying Updated
+Whiteboard or Online Coding
+Portfolio or Projects
+1. Understanding the Job Requirements
+Before the interview, carefully read and understand the job description and requirements. Ensure you are aware of the technical skills and knowledge expected for the position.
 
-Returns an empty list if n <= 0
-You can assume n will be always an integer
-guillaume@ubuntu:~/0x00$ cat 0-main.py
-#!/usr/bin/python3
-"""
-0-main
-"""
-pascal_triangle = __import__('0-pascal_triangle').pascal_triangle
+2. Reviewing Technical Concepts
+Refresh your knowledge of fundamental technical concepts relevant to the job. This may include programming languages, algorithms, data structures, and domain-specific knowledge.
 
-def print_triangle(triangle):
-    """
-    Print the triangle
-    """
-    for row in triangle:
-        print("[{}]".format(",".join([str(x) for x in row])))
+3. Practicing Coding
+Practice solving coding problems on platforms like LeetCode, HackerRank, or CodeSignal. Focus on problem-solving skills and efficient coding practices.
 
+4. Studying Past Work
+Be ready to discuss your past projects and experiences, especially those related to the role you're applying for. Prepare to explain your contributions, challenges faced, and how you overcame them.
 
-if __name__ == "__main__":
-    print_triangle(pascal_triangle(5))
+5. Behavioral Questions
+Expect behavioral questions that assess soft skills, teamwork, communication, and problem-solving abilities. Practice relating your experiences to the technical field.
 
-guillaume@ubuntu:~/0x00$ 
-guillaume@ubuntu:~/0x00$ ./0-main.py
-[1]
-[1,1]
-[1,2,1]
-[1,3,3,1]
-[1,4,6,4,1]
-guillaume@ubuntu:~/0x00$ 
-Repo:
+6. Mock Interviews
+Conduct mock technical interviews with peers or through online platforms that offer interview practice. Receive feedback to improve your performance.
 
-GitHub repository: alx-interview
-Directory: 0x00-pascal_triangle
-File: 0-pascal_triangle.py
-  
+7. Asking Questions
+Prepare thoughtful questions to ask the interviewer about the company, team, and role. Demonstrating your interest can leave a positive impression.
+
+8. Reviewing Your Resume
+Be ready to discuss your resume in detail. Expect questions about your work experience, projects, and any technical skills or certifications listed.
+
+9. Handling Pressure
+Practice solving problems under time constraints to improve your ability to think clearly during interviews. Stay composed under pressure.
+
+10. Staying Updated
+Keep up with industry trends and advancements, especially if relevant to the role you're applying for. Show your commitment to ongoing learning.
+
+11. Whiteboard or Online Coding
+Practice writing code by hand or on a digital platform if the interview involves whiteboard coding or online coding tests. Explain your thought process clearly.
+
+12. Portfolio or Projects
+If you have personal projects or a portfolio, be prepared to discuss them and showcase your skills. Practical experience can be valuable.
+
+Feel free to customize this guide to your specific needs and preferences. Good luck with your technical interviews!
